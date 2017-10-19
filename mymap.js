@@ -12,4 +12,7 @@ if(typeof Array.prototype.mymap!='function'){
     }
 }
 var nums=[34,5546,2423,23,1];
-nums.mymap(console.log);
+var b=nums.mymap(function (re1,re2,re3) {
+    return re1;
+});
+console.log(b);
